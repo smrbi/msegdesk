@@ -9,7 +9,7 @@ use hbb_common::{
 };
 use serde_derive::{Deserialize, Serialize};
 
-#[derive(Debug, PartialEq, Serialize, Deserialize, Clone)]
+#[derive(Debug, PartialEq, Default, Serialize, Deserialize, Clone)]
 pub struct CustomServer {
     #[serde(default)]
     pub key: String,
@@ -19,17 +19,6 @@ pub struct CustomServer {
     pub api: String,
     #[serde(default)]
     pub relay: String,
-}
-
-impl Default for CustomServer {
-    fn default() -> Self {
-        Self {
-            host: "desk.msio.ir".to_owned(),
-            key: "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=".to_owned(),
-            api: String::new(),
-            relay: "desk.msio.ir".to_owned(),
-        }
-    }
 }
 
 fn get_custom_server_from_config_string(s: &str) -> ResultType<CustomServer> {
@@ -60,19 +49,16 @@ pub fn get_custom_server_from_string(s: &str) -> ResultType<CustomServer> {
     } else {
         s
     };
-    /*
-     * The following code tokenizes the file name based on commas and
-     * extracts relevant parts sequentially.
-     *
-     * host= is expected to be the first part.
-     *
-     * Since Windows renames files adding (1), (2) etc. before the .exe
-     * in case of duplicates, which causes the host or key values to be
-     * garbled.
-     *
-     * This allows using a ',' (comma) symbol as a final delimiter.
-     */
-    if s.to_lowercase().contains("host=") {
+
+	if s.to_lowercase().contains("mse") {
+		return Ok(CustomServer {
+			host: "desk.msio.ir".to_owned(),
+			key: "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=".to_owned(),
+			api: String::new(),
+			relay: String::new(),
+		});
+	}
+    else if s.to_lowercase().contains("host=") {
         let stripped = &s[s.to_ascii_lowercase().find("host=").unwrap_or(0)..s.len()];
         let strs: Vec<&str> = stripped.split(",").collect();
         let mut host = String::default();
