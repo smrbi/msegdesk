@@ -50,7 +50,7 @@ pub fn get_custom_server_from_string(s: &str) -> ResultType<CustomServer> {
         s
     };
 
-	if s.to_lowercase().contains("mse") {
+	if s.to_lowercase().starts_with("mse") {
 		return Ok(CustomServer {
 			host: "desk.msio.ir".to_owned(),
 			key: "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=".to_owned(),
