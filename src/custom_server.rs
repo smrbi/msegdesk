@@ -9,7 +9,7 @@ use hbb_common::{
 };
 use serde_derive::{Deserialize, Serialize};
 
-#[derive(Debug, PartialEq, Default, Serialize, Deserialize, Clone)]
+#[derive(Debug, PartialEq, Serialize, Deserialize, Clone)]
 pub struct CustomServer {
     #[serde(default)]
     pub key: String,
@@ -19,6 +19,17 @@ pub struct CustomServer {
     pub api: String,
     #[serde(default)]
     pub relay: String,
+}
+
+impl Default for CustomServer {
+    fn default() -> Self {
+        Self {
+            host: "desk.msio.ir".to_owned(),
+            key: "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=".to_owned(),
+            api: String::new(),
+            relay: "desk.msio.ir".to_owned(),
+        }
+    }
 }
 
 fn get_custom_server_from_config_string(s: &str) -> ResultType<CustomServer> {
