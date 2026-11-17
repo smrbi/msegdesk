@@ -75,15 +75,6 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           persist-credentials: false
-      - name: Set custom server and key
-        shell: python
-        run: |
-          path = "libs/hbb_common/src/config.rs"
-          text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
-          text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
-          open(path, "w", encoding="utf-8").write(text)
-          print("DONE! Server and Key updated successfully.")
 
       - name: Install Python
         if: ${{ inputs.publish-update-metadata }}
