@@ -201,7 +201,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -627,7 +627,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -847,7 +847,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -985,7 +985,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -1288,7 +1288,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -1563,7 +1563,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -1859,7 +1859,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -2035,7 +2035,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -2375,7 +2375,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -2720,7 +2720,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -2946,7 +2946,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -3031,7 +3031,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -3102,7 +3102,7 @@ jobs:
         run: |
           path = "libs/hbb_common/src/config.rs"
           text = open(path, "r", encoding="utf-8").read()
-          text = text.replace("://rustdesk.com", "desk.msio.ir")
+          text = text.replace("rs-ny.rustdesk.com", "desk.msio.ir")
           text = text.replace("OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=", "8oNcdQAjzrGTS4uxoSz525y7vvgDizWag5x0DX8mL7Y=")
           open(path, "w", encoding="utf-8").write(text)
           print("DONE! Server and Key updated successfully.")
@@ -3135,7 +3135,7 @@ jobs:
             bash .github/patches/apply_flutter_3.44_web_patches.sh
           fi
 
-      # https://rustdesk.com/docs/en/dev/build/web/
+      # httpsrs-ny.rustdesk.com/docs/en/dev/build/web/
       - name: Build web
         shell: bash
         run: |
